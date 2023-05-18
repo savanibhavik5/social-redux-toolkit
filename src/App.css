@@ -12,7 +12,11 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
-
+.heading {
+  /* position: fixed ; */
+  top: 0;
+  width: 100%;
+}
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -35,4 +39,104 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+li {
+  list-style: none;
+}
+Link {
+  text-decoration: none;
+}
+h4 {
+  color: #0a58ca;
+}
+
+
+.post {
+  height: 130px;
+}
+
+.post-button {
+  display: flex !important;
+  text-align: center;
+  justify-content: center;
+  margin: 5px;
+  align-items: center;
+  background-color: rgb(234, 230, 230) !important;
+  border: none !important;
+}
+::-webkit-scrollbar {
+  width: 0px;
+  height: 10px;
+}
+::-webkit-scrollbar-track {
+  background-color: rgba(16, 131, 31, 0.2);
+}
+::-webkit-scrollbar-thumb {
+  background-color: rgba(33, 31, 169, 0.3);
+  border-radius: 10px;
+}
+.reels_main_div {
+  display: flex;
+  overflow: scroll;
+  height: 100%;
+}
+/* .reels {
+  height: 250px;
+} */
+.reel {
+  margin: 2px;
+  display: flex;
+  flex-direction: row;
+  width: 25%;
+  height: fit-content;
+}
+.post_img {
+  width: 70%;
+}
+
+.login_row {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(244, 242, 242) !important;
+  padding: 1.5rem;
+}
+.terms {
+  font-size: x-small;
+  margin: 1rem;
+}
+
+/* .dark,
+i {
+  background-color: #333;
+  color: #d8d8d8;
+}
+Link,
+.light,
+h5 {
+  background-color: #fff;
+  color: #333;
+} */
+.vpostrow > * {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+.video-text {
+  font-size: 15px;
+}
+.userData {
+  font-size: 10px;
+}
+.product-img {
+  width: 100%;
+  height: 10rem;
+}
+.setting-link {
+  color: blue !important;
+}
+.replay-button {
+  padding: 0 !important;
+  margin: 2px !important;
 }
